@@ -1,3 +1,12 @@
-//declare a constant variable
-const name = "John";
-console.log(name);
+
+// const nameVariable = "John";
+// console.log(nameVariable);
+
+
+const greet = (nameVariable) => {
+  console.log(`Hello, ${nameVariable}`);
+  console.log(`Goodbye, ${nameVariable}`);
+  console.log(`See you later, ${nameVariable}`);
+}
+
+greet("John");
